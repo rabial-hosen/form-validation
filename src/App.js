@@ -67,18 +67,20 @@ const App = () => {
         <form onSubmit={handelError} className='form'>
           <div>
             <input
-              type="text"
+              type="name"
               placeholder="Enter your username"
               onChange={(event) => setName(event.target.value)}
             />
+            <hr/>
           </div>
           <div>
             <input
-              type="text"
+              type="email"
               placeholder="Enter your email"
               onChange={(event) => setEmail(event.target.value)}
             />
           </div>
+          <hr/>
           <div>
             <input
               type="password"
@@ -86,6 +88,7 @@ const App = () => {
               onChange={(event) => setPassword(event.target.value)}
             />
           </div>
+          <hr/>
           <div>
             <input
               type="password"
@@ -93,6 +96,7 @@ const App = () => {
               onChange={(event) => setConfirmPassword(event.target.value)}
             />
           </div>
+          <hr/>
           <button type="submit">Create Account</button>
         </form>
         <div>

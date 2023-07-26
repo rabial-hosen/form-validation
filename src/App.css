@@ -72,7 +72,7 @@
   justify-content: center;
   align-items: center;
 }
-.form input{
+.form input {
   width: 480px;
   margin-bottom: 30px;
   padding: 10px;
@@ -80,6 +80,13 @@
   border: none;
   outline: none;
   margin-left: 120px;
+  background-color: white;
+}
+hr{
+  width: 480px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+  
 }
 .form button{
   width: 350px;
@@ -89,6 +96,7 @@
   background-color: #7CD2D7;
   color: white;
   margin-left: 90px;
+  margin-top: 10px;
 
 }
 .li,ul{
